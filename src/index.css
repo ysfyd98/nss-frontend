@@ -1,0 +1,76 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  background: url("images/restaurants.jpeg") center center/cover no-repeat; 
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+/* Registration form*/
+.offset-md-5 {
+margin: 75px auto 0 auto;
+
+color: #442212;
+background: #E1DED4;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px
+}
+
+/* Sign in form */
+.offset-md-6 {
+  margin: 160px auto 0 auto;
+
+  color: #442212;
+  background: #E1DED4;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+} 
+
+.home-page {
+  
+position: relative;
+width: 1000px;
+height: 1024px;
+background: #E1DED4;
+
+/* Rectangle - upper panel */
+position: absolute;
+width: 100%;
+height: 76px;
+
+
+background: #E1DED4;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.home-page-text {
+  color: #4C413C;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  margin-top: 14px;
+}
+
+.exit-button {
+  margin: -50px auto auto 94%;
+}

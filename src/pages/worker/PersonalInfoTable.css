@@ -1,0 +1,12 @@
+#personal-info-table-div {
+    height: 150px;
+}
+
+div.ag-theme-balham div.ag-row {
+    font-size: 18px !important;
+}
+
+.ag-row .ag-cell {
+    display: flex;
+    align-items: center;
+}
